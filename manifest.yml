@@ -4,7 +4,8 @@ declared-services:
       label: conversation
       plan: free
 applications:
-- path: .
-   name: findYourPath
+- name: findYourPath
+   command: npm start
+   path: . 
    services:
      my-conversation-service
