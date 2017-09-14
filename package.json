@@ -12,13 +12,12 @@
   "license": "Apache-2.0",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "cfenv": "^1.0.4",
     "dotenv": "^2.0.0",
     "express": "^4.14.0",
     "watson-developer-cloud": "^2.31.1"
   },
-  "devDependencies": {
-
-  },
+  "devDependencies": {},
   "engines": {
     "node": ">= 6.9.x",
     "npm": "> 3.10.x"
