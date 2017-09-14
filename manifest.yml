@@ -1,16 +1,10 @@
 ---
 declared-services:
-  my-conversation-service:
-    label: conversation
-    plan: free
+   my-conversation-service:
+      label: conversation
+      plan: free
 applications:
 - path: .
    name: findYourPath
-  memory: 256M
-  instances: 1
-  domain: mybluemix.net
-  name: findYourPath
-  host: findYourPath
-  disk_quota: 1024M
-  services:
+   services:
      my-conversation-service
