@@ -100,7 +100,7 @@ var PayloadPanel = (function() {
             ? Api.getRequestPayload() : Api.getResponsePayload());
 
     var payloadJson = {
-      'tagName': 'div',
+      /*'tagName': 'div',
       'children': [{
         // <div class='header-text'>
         'tagName': 'div',
@@ -122,7 +122,7 @@ var PayloadPanel = (function() {
           'html': payloadPrettyString
         }]
       }]
-    };
+    };*/
 
     return Common.buildDomElement(payloadJson);
   }
