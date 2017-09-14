@@ -5,9 +5,8 @@ declared-services:
       plan: free
 applications:
 - name: findYourPath
-   command: npm start
    path: .
-   domain: findyourath.com.br
+   domain: findyourpath.com.br
    host: api
    services:
      my-conversation-service
