@@ -33,7 +33,7 @@ var conversation = new watson({
   // After that, the SDK will fall back to the bluemix-provided VCAP_SERVICES environment property
   username: credentials.WATSON_USERNAME,
   password: credentials.WATSON_PASSWORD,
-  // url: 'https://gateway.watsonplatform.net/conversation/api',
+  url: 'https://gateway.watsonplatform.net/conversation/api',
   version_date: watson.VERSION_DATE_2017_04_21
 });
 

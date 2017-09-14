@@ -5,6 +5,7 @@ declared-services:
     plan: free
 applications:
 - path: .
+   name: findYourPath
   memory: 256M
   instances: 1
   domain: mybluemix.net
