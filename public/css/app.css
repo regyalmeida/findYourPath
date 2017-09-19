@@ -8,11 +8,19 @@ body {
   font-family: Helvetica Neue for IBM, Helvetica Neue, Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: rgba(211,211,211,0.3);
 }
 
 div {
   word-wrap: break-word;
   line-height: 1.25rem;
+}
+
+.fundo{
+   background-image: url(../img/bg.jpg);
+ background-size:contain;
+   background-color: rgba(0,0,0,0.3);
+
 }
 
 #view-change-button {
@@ -74,6 +82,7 @@ div {
   text-align: left;
   max-width: 25rem;
   min-width: 9.375rem;
+   background-color: rgba(211, 211, 211, 0.3);
 }
 
 #scrollingChat {
@@ -235,6 +244,7 @@ input:-moz-placeholder {
   border-bottom: 0.0625rem solid #aeaeae;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+   background-color: rgba(211, 211, 211, 0.3);
 }
 
 #textInputDummy {
