@@ -17,9 +17,13 @@ div {
 }
 
 .fundo{
-   background-image: url(../img/bg.jpg);
- background-size:contain;
-   background-color: rgba(0,0,0,0.3);
+   background-image: url(../img/bg2.jpg);
+   background-size:cover;
+   /*background-color: rgba(0,0,0,0.3);*/
+   position: relative;
+    left: 0;
+    right: 0;
+    z-index: 1;
 
 }
 
@@ -82,7 +86,7 @@ div {
   text-align: left;
   max-width: 25rem;
   min-width: 9.375rem;
-   background-color: rgba(211, 211, 211, 0.3);
+   background-color: rgba(211, 211, 211, 0.5);
 }
 
 #scrollingChat {
@@ -170,9 +174,10 @@ div {
   position: relative;
   border-radius: 1.5625rem;
   font-size: 1rem;
-  color: #B5B5B5;
+  color: rgba(0,0,0,0.3);
   letter-spacing: 0.015rem;
   line-height: 1.3125rem;
+
 }
 
 .from-watson.latest .message-inner {
